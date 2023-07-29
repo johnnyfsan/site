@@ -1,0 +1,46 @@
+title: "Johnny Ferreira"
+email: johnny.ferreira.santos@gmail.com
+timezone: UTC-3
+baseurl: "/affiliates-jekyll-theme"
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: Sal
+paginate: 30
+disqus: 'tidahora'
+locale: pt_BR
+lang: pt_BR
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-113961478-1
+
+# Authors
+authors:
+  sal:
+    name: Johnny Ferreira
+    display_name: Johnny Ferreira
+    avatar: 'assets/images/sal.png'
+    email: johnny.ferreira.santos@gmail.com
+    description: "Apenas um cara da TI"
+
+# Social
+social:
+  instagram: https://www.instagram.com/johnnyfsan
+  facebook: https://www.facebook.com/johnnyferrreirasantos
+  linkedin: https://www.linkedin.com/in/johnnyferreiradossantos/
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
