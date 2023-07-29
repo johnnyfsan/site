@@ -2,8 +2,8 @@
 title: 'Instalando o Grafana no CentOS 7'
 date: '2020-08-26T14:43:49-03:00'
 type: post
-image: /assets/img/uploads/2020/08/grafana-dashboard-e1605992643650.png
-share-img: /assets/img/uploads/2020/08/grafana-dashboard-e1605992643650.png
+image: /site/assets/img/uploads/2020/08/grafana-dashboard-e1605992643650.png
+share-img: /site/assets/img/uploads/2020/08/grafana-dashboard-e1605992643650.png
 tag:
     - 'grafana dashboard centos'
     - 'instalando grafana centos'
@@ -148,7 +148,7 @@ firewall-cmd --reload
 
 Abra o seu navegador de preferência e digite o endereço IP do servidor seguido da porta 3000, por exemplo: http://endereco ip:3000 
 
-[![](/assets/img/uploads/2020/08/grafana-1.png)](/assets/img/uploads/2020/08/grafana-1.png)
+[![](/site/assets/img/uploads/2020/08/grafana-1.png)](/site/assets/img/uploads/2020/08/grafana-1.png)
 
 Para efetuar o acesso pela primeira vez, o login é: admin e a senha também é: admin 
 **Login:** admin 
@@ -156,11 +156,11 @@ Para efetuar o acesso pela primeira vez, o login é: admin e a senha também é:
 
 Ao efetuar o login pela primeira vez, será solicitado a troca da senha padrão, conforme a tela abaixo, informa uma nova senha, confirme-a e clique em **Submit** para validar a alteração. 
 
-[![](/assets/img/uploads/2020/08/grafana-2.png)](/assets/img/uploads/2020/08/grafana-2.png)
+[![](/site/assets/img/uploads/2020/08/grafana-2.png)](/site/assets/img/uploads/2020/08/grafana-2.png)
 
 Após isso, você será redirecionado a tela principal do Grafana. 
 
-[![](/assets/img/uploads/2020/08/grafana-3.png)](/assets/img/uploads/2020/08/grafana-3.png)
+[![](/site/assets/img/uploads/2020/08/grafana-3.png)](/site/assets/img/uploads/2020/08/grafana-3.png)
 
 
   
@@ -187,7 +187,7 @@ systemctl restart grafana-server
 
 - - - - - -
 
-![](/assets/img/uploads/2019/02/foto-redonda.png)  
+![](/site/assets/img/uploads/2019/02/foto-redonda.png)  
 
 **Johnny Ferreira** 
 <johnny.ferreira.santos@gmail.com>  

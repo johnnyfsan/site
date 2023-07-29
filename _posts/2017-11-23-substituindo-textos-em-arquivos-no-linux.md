@@ -2,8 +2,8 @@
 layout: post
 title: 'Substituindo textos em arquivos no Linux'
 date: '2017-11-23T14:09:34-02:00'
-image: /assets/img/uploads/2017/11/dicas-de-linux.jpg
-share-img: /assets/img/uploads/2017/11/dicas-de-linux.jpg
+image: /site/assets/img/uploads/2017/11/dicas-de-linux.jpg
+share-img: /site/assets/img/uploads/2017/11/dicas-de-linux.jpg
 tags: [sed, sed linux, como usar o comando sed, substituir string linux, substituir texto arquivo linux]
 ---
 
