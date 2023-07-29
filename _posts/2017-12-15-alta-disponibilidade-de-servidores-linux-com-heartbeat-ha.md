@@ -3,7 +3,7 @@ layout: post
 date: '2017-12-15T11:27:47-02:00'
 title: 'Alta Disponibilidade de Servidores Linux com Heartbeat (HA)'
 subtitle:
-thumbnail-img: /assets/img/uploads/2017/12/alta-disponibilidade-servidores-linux-heartbeat-ha.png
+image: /assets/img/uploads/2017/12/alta-disponibilidade-servidores-linux-heartbeat-ha.png
 share-img: /assets/img/uploads/2017/12/alta-disponibilidade-servidores-linux-heartbeat-ha.png
 tag:
     - 'alta disponibilidade'

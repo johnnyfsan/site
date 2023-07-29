@@ -2,7 +2,7 @@
 title: 'Shell script para backup de dados no Amazon S3'
 date: '2023-03-16T16:53:03-03:00'
 type: post
-thumbnail-img: /assets/img/uploads/2023/03/shell-script-backup-amazon-s3.png
+image: /assets/img/uploads/2023/03/shell-script-backup-amazon-s3.png
 share-img: /assets/img/uploads/2023/03/shell-script-backup-amazon-s3.png
 tag:
     - 'Amazon S3'

@@ -2,7 +2,7 @@
 title: 'Instalando o Bacula Backup no CentOS 7'
 date: '2018-03-19T16:02:43-03:00'
 type: post
-thumbnail-img: /assets/img/uploads/2018/03/instalando-o-bacula-backup-no-centos-7.png
+image: /assets/img/uploads/2018/03/instalando-o-bacula-backup-no-centos-7.png
 share-img: /assets/img/uploads/2018/03/instalando-o-bacula-backup-no-centos-7.png
 tag:
     - 'bacula'

@@ -2,7 +2,7 @@
 title: 'Instalando o BackupPC no Linux Ubuntu 20'
 date: '2021-05-22T12:41:25-03:00'
 type: post
-thumbnail-img: /assets/img/uploads/2021/05/servidor-de-backup-com-backuppc-no-linux-ubuntu-20.png
+image: /assets/img/uploads/2021/05/servidor-de-backup-com-backuppc-no-linux-ubuntu-20.png
 share-img: /assets/img/uploads/2021/05/servidor-de-backup-com-backuppc-no-linux-ubuntu-20.png
 tag:
     - 'backuppc linux ubuntu 20'

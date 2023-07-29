@@ -2,7 +2,7 @@
 title: 'GPO para Desligamento Programado de Estações'
 date: '2019-02-01T14:59:46-02:00'
 type: post
-thumbnail-img: /assets/img/uploads/2019/02/gpo-para-desligamento-programado-de-estacoes.png
+image: /assets/img/uploads/2019/02/gpo-para-desligamento-programado-de-estacoes.png
 share-img: /assets/img/uploads/2019/02/gpo-para-desligamento-programado-de-estacoes.png
 tag:
     - 'gpo desligar computador'

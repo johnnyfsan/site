@@ -2,7 +2,7 @@
 title: 'Servidor Web com Apache, PHP e MySQL no Ubuntu Linux'
 date: '2017-12-21T15:24:33-02:00'
 type: post
-thumbnail-img: /assets/img/uploads/2017/12/servidor-web-ubuntu-linux.png
+image: /assets/img/uploads/2017/12/servidor-web-ubuntu-linux.png
 share-img: /assets/img/uploads/2017/12/servidor-web-ubuntu-linux.png
 tag:
     - 'apache ubuntu'

@@ -2,7 +2,7 @@
 title: 'Criar pendrive bootável Windows 10 pelo Mac'
 date: '2019-03-25T22:08:15-03:00'
 type: post
-thumbnail-img: /assets/img/uploads/2019/03/criar-pendrive-bootavel-windows-10-pelo-mac-os.png
+image: /assets/img/uploads/2019/03/criar-pendrive-bootavel-windows-10-pelo-mac-os.png
 share-img: /assets/img/uploads/2019/03/criar-pendrive-bootavel-windows-10-pelo-mac-os.png
 tag:
     - 'criar pendrive bootavel windows 10 mac'

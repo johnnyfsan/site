@@ -3,7 +3,7 @@ layout: post
 date: '2019-09-20T14:30:42-03:00'
 title: 'Resolvendo: Fone de ouvido só funciona um lado no Macbook'
 subtitle:
-thumbnail-img: /assets/img/uploads/2019/09/Fone-e-USB-C-no-MacBook-Pro.jpg
+image: /assets/img/uploads/2019/09/Fone-e-USB-C-no-MacBook-Pro.jpg
 share-img: /assets/img/uploads/2019/09/Fone-e-USB-C-no-MacBook-Pro.jpg
 tag:
     - 'fone de ouvido macbook'

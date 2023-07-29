@@ -3,7 +3,7 @@ layout: post
 date: '2019-01-30T15:46:16-02:00'
 title: 'Servidor Proxy Squid no Linux Ubuntu'
 subtitle:
-thumbnail-img: /assets/img/uploads/2017/12/servidor-proxy-squid-no-linux-ubuntu.png
+image: /assets/img/uploads/2017/12/servidor-proxy-squid-no-linux-ubuntu.png
 share-img: /assets/img/uploads/2017/12/servidor-proxy-squid-no-linux-ubuntu.png
 tag:
     - 'instalar servidor linux squid proxy'

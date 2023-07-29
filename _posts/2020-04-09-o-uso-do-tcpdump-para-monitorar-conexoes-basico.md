@@ -3,7 +3,7 @@ layout: post
 date: '2020-04-09T16:56:05-03:00'
 title: 'O uso do TCPDUMP para monitorar conexões [básico]'
 subtitle:
-thumbnail-img: /assets/img/uploads/2020/04/tcpdump-1.png
+image: /assets/img/uploads/2020/04/tcpdump-1.png
 share-img: /assets/img/uploads/2020/04/tcpdump-1.png
 tag:
     - 'aprenda tcpdump'
