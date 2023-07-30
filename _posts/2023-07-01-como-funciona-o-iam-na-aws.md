@@ -2,8 +2,7 @@
 layout: post
 title: Como Funciona o IAM na AWS
 subtitle:
-image: /site/assets/img/aws-iam.png
-share-img: /site/assets/img/aws-iam.png
+image: /assets/img/thumb/aws-iam.png
 tags: [aws, iam, devops, cloud, amazon web services]
 comments: true
 ---

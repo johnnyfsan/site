@@ -2,8 +2,7 @@
 title: 'GPO de Ajuste de Horário no SAMBA4'
 date: '2018-06-11T16:56:03-03:00'
 type: post
-image: /site/assets/img/uploads/2018/06/gpo-para-ajuste-de-horario-no-samba4.png
-share-img: /site/assets/img/uploads/2018/06/gpo-para-ajuste-de-horario-no-samba4.png
+image: /assets/img/thumb/gpo-para-ajuste-de-horario-no-samba4.png
 tag:
     - 'criar gpo samba4 linux'
     - 'criar gpo windows horario samba'
