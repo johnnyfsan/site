@@ -6,7 +6,7 @@ permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: Johnny Ferreira
-paginate: 30
+paginate: 20
 disqus: 'tidahora'
 locale: pt_BR
 lang: pt_BR
@@ -23,6 +23,23 @@ sass:
   sass_dir: _sass
   style: :compressed
 ganalytics: G-Q7Z612VPL5
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
 
 # The keywords to associate with your website, for SEO purposes
 keywords: "linux, devops, cloud, tecnologia, infraestrutura, docker, aws, amazon web services, terraform, gcp, google cloud platform"
