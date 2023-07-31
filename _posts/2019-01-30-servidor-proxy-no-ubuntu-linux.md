@@ -26,7 +26,7 @@ Se você não possui o Ubuntu instalado, ou não sabe como instalar, clica 👇�
 sudo apt-get update
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-1.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-1.png) 
 
 
 #### Passo 2: Instalando o Squid no Linux Ubuntu 16.04
@@ -35,7 +35,7 @@ sudo apt-get update
 sudo apt-get install squid
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-2.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-2.png) 
 
 
 #### Passo 3: Configurando o Squid no Linux Ubuntu 16.04
@@ -46,7 +46,7 @@ Vamos efetuar uma cópia de backup do arquivo “squid.conf”
 sudo cp -Rfa /etc/squid/squid.conf{,.bkp}
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-3.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-3.png) 
 
 Acesse o diretório de configuração do do Squid:
 
@@ -54,7 +54,7 @@ Acesse o diretório de configuração do do Squid:
 cd /etc/squid
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-4.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-4.png) 
 
 Listando os arquivos no diretório:
 
@@ -62,7 +62,7 @@ Listando os arquivos no diretório:
 ls -l
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-5.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-5.png) 
 
 Agora vamos apagar o arquivo “squid.conf” e criar um novo, somente com as opcoes que desejamos:
 
@@ -70,7 +70,7 @@ Agora vamos apagar o arquivo “squid.conf” e criar um novo, somente com as op
 sudo rm -rf squid.conf
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-6.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-6.png) 
 
 Em seguida vamos criar o nosso novo arquivo de configuração.
 
@@ -78,7 +78,7 @@ Em seguida vamos criar o nosso novo arquivo de configuração.
 sudo touch squid.conf
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-7.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-7.png) 
 
 Agora vamos editar o arquivo criado, vou utilizar o “vim”.
 
@@ -86,7 +86,7 @@ Agora vamos editar o arquivo criado, vou utilizar o “vim”.
 sudo vim squid.conf
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-8.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-8.png) 
 
 Conteúdo do arquivo:
 
@@ -171,10 +171,10 @@ http_access deny !Safe_ports
 http_access deny CONNECT !SSL_ports
 
 ## SITES BLOQUEADOS PARA ACESSO ##
-acl sites-bloqueados url_regex -i "/etc/squid/regras/sites_bloqueados"
+acl sites-bloqueados url_regex -i "/etc/squid/regras.s_bloqueados"
 
 ## SITES LIBERADOS PARA ACESSO ##
-acl sites-liberados url_regex -i "/etc/squid/regras/sites_liberados"
+acl sites-liberados url_regex -i "/etc/squid/regras.s_liberados"
 
 ## DEFININDO A ORDEM DAS REGRAS - ACLS ##
 http_access deny sites-bloqueados
@@ -206,23 +206,23 @@ sudo mkdir /etc/squid/regras
 ```
 
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-9.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-9.png) 
 
 
 Vamos criar o arquivo de sites liberados e bloqueados:
 
 
 ```
-sudo touch /etc/squid/regras/sites_liberados
-sudo touch /etc/squid/regras/sites_bloqueados
+sudo touch /etc/squid/regras.s_liberados
+sudo touch /etc/squid/regras.s_bloqueados
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-10.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-10.png) 
 
 Vamos inserir algum site na lista de liberados e na lista de bloqueados:
 
 ```
-sudo vim /etc/squid/regras/sites_liberados
+sudo vim /etc/squid/regras.s_liberados
 ```
 
 Conteúdo:
@@ -234,7 +234,7 @@ Conteúdo:
 
 
 ```
-sudo vim /etc/squid/regras/sites_bloqueados
+sudo vim /etc/squid/regras.s_bloqueados
 ```
 
 Conteúdo:
@@ -254,7 +254,7 @@ sudo chmod -Rf 774 /var/spool/squid
 sudo squid -z
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-11.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-11.png) 
 
 
 Inicie o serviço do Squid:
@@ -269,7 +269,7 @@ Verificando o status do serviço:
 sudo systemctl status squid
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-12.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-12.png) 
 
 
 #### PASSO 4: CRIANDO OS USUÁRIOS PARA ACESSO A INTERNET
@@ -280,7 +280,7 @@ Instale o Apache no servidor Linux Ubuntu, o apache possui um programa que iremo
 sudo apt-get install apache2
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-13.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-13.png) 
 
 Criando os usuários com o comando “htpasswd”
 
@@ -290,7 +290,7 @@ Utilize o comando abaixo, somente pela primeira vez, para criar o arquivo:
 sudo htpasswd -c /etc/squid/usuarios johnny
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-14.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-14.png) 
 
 Para os demais usuários utilize:
 
@@ -298,7 +298,7 @@ Para os demais usuários utilize:
 sudo htpasswd /etc/squid/usuarios jferreira
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-15.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-15.png) 
 
 Agora vamos recarregar as configurações do squid:
 
@@ -314,7 +314,7 @@ Esse procedimento precisa ser feito pelo usuário “root”:
 
 Caso voce nao tenha definido a senha para o usuario root, vamos definir abaixo:
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-16.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-16.png) 
 
 Acessando o console como “root”
 
@@ -328,7 +328,7 @@ Habilitando o encaminhamento de pacotes:
 echo 1 >> /proc/sys/net/ipv4/ip_forward
 ```
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-18.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-18.png) 
 
 
 #### PASSO 6: TESTANDO O SERVIDOR SQUID PROXY NO UBUNTU LINUX
@@ -343,29 +343,29 @@ sudo ifconfig
 
 Abra o Firefox e siga os passos abaixo:
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-19.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-19.png) 
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-20.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-20.png) 
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-21.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-21.png) 
 
 Feche as configurações e o navegador e abra-o novamente.
 
 Será solicitado Login e Senha para acesso a Internet:
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-22.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-22.png) 
 
 Digite um site que está na lista de sites liberados:
 
 www.uol.com.br
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-23.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-23.png) 
 
 Vamos acessar um site que está na lista de Bloqueados:
 
 www.globo.com
 
-![]( /site/assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-24.png) 
+![]( ./assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-24.png) 
 
 Pronto, agora você já possui um servidor Proxy Squid em Linux Ubuntu. 😎
 
@@ -374,6 +374,6 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
- ![]( /site/assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)  **Johnny Ferreira**  
+ ![]( ./assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)  **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  
 <http://www.tidahora.com.br>

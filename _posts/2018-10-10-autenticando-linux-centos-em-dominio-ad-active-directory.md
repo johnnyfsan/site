@@ -214,16 +214,16 @@ Na linha de número 93, insira a linha abaixo, salve o arquivo e saia do mesmo
 Agora tente se logar com um usuário do seu domínio que pertença ao grupo que ajustamos no sudo e no ssh.
 
 Meu usuário do domínio é “johnny” ele é membro do domínio “ti”, que configuramos acima:  
-[![](/site/assets/img/uploads/2018/10/1.png)](/site/assets/img/uploads/2018/10/1.png)
+[![](./assets/img/uploads/2018/10/1.png)](./assets/img/uploads/2018/10/1.png)
 
 Informe a senha do usuário do domínio:  
-[![](/site/assets/img/uploads/2018/10/2.png)](/site/assets/img/uploads/2018/10/2.png)
+[![](./assets/img/uploads/2018/10/2.png)](./assets/img/uploads/2018/10/2.png)
 
 Veja abaixo o diretório /home do usuário, o mesmo está configurado para /home/tidahora.local.  
-[![](/site/assets/img/uploads/2018/10/3.png)](/site/assets/img/uploads/2018/10/3.png)
+[![](./assets/img/uploads/2018/10/3.png)](./assets/img/uploads/2018/10/3.png)
 
 O mesmo utilizando o comando “sudo” para executar comandos com nível de permissão avançada.  
-[![](/site/assets/img/uploads/2018/10/5.png)](/site/assets/img/uploads/2018/10/5.png)
+[![](./assets/img/uploads/2018/10/5.png)](./assets/img/uploads/2018/10/5.png)
 
 
 Dúvidas, comentário e sugestões postem nos comentários.
@@ -231,7 +231,7 @@ Dúvidas, comentário e sugestões postem nos comentários.
 
 - - - - - -
 
-![](/site/assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)  
+![](./assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)  
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  

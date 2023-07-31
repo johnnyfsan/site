@@ -576,42 +576,42 @@ Nesse tutorial estarei utilizando um Windows 7, mas funciona com Windows 8 e Win
 
 O primeiro passo para ingressar o host no domínio, é ajustar o DNS do mesmo, para isso abra as configurações de rede do Windows e adicione o IP do seu servidor Samba 4 nos ajustes de DNS do Windows.
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)
 
 Clique com o botão direito do mouse sobre o ícone **“Meu Computador”** e vá em **“Propriedades”.**
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad2.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad2.png)
 
 Ao abrir **“Propriedades”** clique em **“Alterar Configurações”**.  
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad3.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad3.png)
 
 Depois na aba de “**Nome do Computador”** clique em **“Alterar”**.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad4.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad4.png)
 
 Coloque o nome do seu domínio conforme a imagem abaixo:
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad5.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad5.png)
 
 Informe o Login de Administrator e a Senha, aquela que criamos na hora de provisionar o domínio.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad6.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad6.png)
 
 Após a confirmação do login e senha a maquina receberá uma mensagem de boas-vindas ao domínio.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad7.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad7.png)
 
 Será solicitado para reiniciar o host Windows, para aplicar as configurações do novo domínio.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad8.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad8.png)
 
 Clique em **“Fechar”** a janela de **“Propriedades”**.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad9.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad9.png)
 
 E reinicie o host clicando no botão **“Reiniciar Agora”.**
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad10.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad10.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad10.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad10.png)
 
 #### 1.10 Gerenciamento do Domínio com RSAT Microsoft
 
@@ -619,7 +619,7 @@ Para que possamos gerenciar o domínio de uma maneira mais eficaz e precisa, vam
 
 Faça login com o usuário “Administrator” do seu domínio na estação para gerenciamento do RSAT.
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad18.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad18.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad18.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad18.png)
 
 Acesse o link <https://www.microsoft.com/pt-br/download/details.aspx?id=7887> pelo seu navegador e faça o Download o RSAT.
 
@@ -629,69 +629,69 @@ Windows 10: [Link Microsoft](http://www.microsoft.com/en-us/download/details.asp
 Windows 8.1: [Link Microsoft](http://www.microsoft.com/en-us/download/details.aspx?id=39296 "http://www.microsoft.com/en-us/download/details.aspx?id=39296")  
 Windows 8: [Link Microsoft](http://www.microsoft.com/download/details.aspx?id=28972 "http://www.microsoft.com/download/details.aspx?id=28972")  
 Windows 7: [Link Microsoft](http://www.microsoft.com/downloads/details.aspx?FamilyID=7D2F6AD7-656B-4313-A005-4E344E43997D&displaylang=en "http://www.microsoft.com/downloads/details.aspx?FamilyID=7D2F6AD7-656B-4313-A005-4E344E43997D&displaylang=en")[  
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad11.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad11.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad11.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad11.png)
 
 Escolha a versão do sistema operacional que você está utilizando, no meu caso estou utilizando 64 bits.
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad12.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad12.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad12.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad12.png)
 
 Após finalizar o Download vamos executar e instalar o complemento da Microsoft.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad13.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad13.png)
 
 Confirme a instalação da atualização de complemento.
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad14.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad14.png) 
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad14.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad14.png) 
 
 Aguarde a cópia do pacote.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad15.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad15.png)
 
 Confirme os termos.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad16.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad16.png)
 
 Aguarde a instalação.
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad17.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad17.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad17.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad17.png)
 
 Após finalizar a instalação, vá em **Painel de Controle**
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.png)
 
 Procure por **Programas e Recursos**
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.1.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.1.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.1.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.1.png)
 
 Clique na opção **Habilitar e Desabilitar Recursos**
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.2.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.2.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.2.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.2.png)
 
 Vai abrir uma tela de Recursos Adicionais do Windows, vamos buscar pelo RSAT, que acabamos de instalar e em seguida vamos habilitar em nosso ambiente.
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.3.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.3.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.3.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.3.png)
 
 Marque todos os ítens e sub-ítens na pasta RSAT.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.5.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.5.png)
 
 Clique em **OK** e aguarde a ativação do RSAT no Windows.
 
-![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad-19.4.png)
+![](./assets/img/uploads/2018/06/samba4-centos-7-ad-19.4.png)
 
 Agora volte ao **Painel de Controle** do Windows.
 
 E procure por **Ferramentas Administrativas.**
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad20.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad20.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad20.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad20.png)
 
 Veja que agora temos os ítens necessários para gerenciamento do domínio Active Directory, clique em **Usuários e Computadores do Active Directory**
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad21.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad21.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad21.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad21.png)
 
 Pronto, seu domínio Active Directory em Samba4 está pronto para uso.
 
-[![](/site/assets/img/uploads/2018/06/samba4-centos-7-ad22.png)](/site/assets/img/uploads/2018/06/samba4-centos-7-ad22.png)
+[![](./assets/img/uploads/2018/06/samba4-centos-7-ad22.png)](./assets/img/uploads/2018/06/samba4-centos-7-ad22.png)
 
 Agora você pode criar **OU’s, GPO’s, Usuários** e **Grupos** conforme sua necessidade.
 

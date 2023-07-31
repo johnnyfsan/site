@@ -339,7 +339,7 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![](/site/assets/img/uploads/2019/02/foto-redonda.png)
+![](./assets/img/uploads/2019/02/foto-redonda.png)
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  

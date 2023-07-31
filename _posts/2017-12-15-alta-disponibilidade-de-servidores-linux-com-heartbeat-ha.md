@@ -160,7 +160,7 @@ Espero ter ajudado de alguma forma.
 
 - - - - - -
 
-![](/site/assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)
+![](./assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  

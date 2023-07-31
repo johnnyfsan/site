@@ -163,43 +163,43 @@ Depois do reboot acesse em seu navegador o <https://enderecoip:8443> e siga o pa
 
 Ao acessar o endereço pelo navegador, irá aparecer a mensagem abaixo, referente ao erro do certificado de segurança do site. Clique em **Avançado.**
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-1-1-1024x594.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-1-1-1024x594.png)
 
 Em seguida, clique em **Aceitar o risco e continuar.**
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-2-1024x593.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-2-1024x593.png)
 
 Selecione o pais e o timezone da sua região.
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-3-1024x594.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-3-1024x594.png)
 
 Na imagem abaixo, vai aparecer todos os dispositivos Ubiquiti que estão conectados em sua rede, nesse exemplo eu não conectei nenhuma dispositivo, por isso o mesmo está vazio 🙁
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-4-1024x594.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-4-1024x594.png)
 
 Na tela abaixo você pode fornecer o SSID e a chave de segurança da Rede Wifi já existente, ou pode pular a etapa também, clicando em **SKIP.**
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-5-1024x596.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-5-1024x596.png)
 
 O próximo passo é criar o login de acesso ao Controller, crie uma senha forte, e anote a senha em algum lugar antes de prosseguir o passo-a-passo.
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-6-1024x595.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-6-1024x595.png)
 
 Confirmando as configurações realizadas, clique em **FINISH.**
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-7-1024x594.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-7-1024x594.png)
 
 Caso você tenha acesso ao Cloud da Ubiquiti para gerenciar os dispositivos remotamente, insira seu e-mail/username e senha de acessos.
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-8.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-8.png)
 
 Abaixo a tela de login do Contoller Ubiquiti Unifi.
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-9-1024x594.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-9-1024x594.png)
 
 Dashboard do Controller após o login. 🙂
 
-![](/site/assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-10-1024x593.png)
+![](./assets/img/uploads/2019/05/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7-10-1024x593.png)
 
 No dashboard vai aparecer todas as opções de gerenciamento dos equipamentos Ubiquiti.  
 Não estarei abordando nesse tutorial, apenas a instalação do Controller mesmo. 😉
@@ -209,7 +209,7 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![](/site/assets/img/uploads/2019/02/foto-redonda.png)  
+![](./assets/img/uploads/2019/02/foto-redonda.png)  
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  
 <http://www.tidahora.com.br>

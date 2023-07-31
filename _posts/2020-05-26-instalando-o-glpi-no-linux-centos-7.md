@@ -15,7 +15,7 @@ comments: true
 
 O GLPI é um gerenciamento de ativos de TI de código aberto, sistema de rastreamento de problemas e sistema de service desk. Este software é escrito em PHP e distribuído sob a GNU General Public License. Como uma tecnologia de código aberto, qualquer pessoa pode executar, modificar ou desenvolver o código. [Wikipedia (inglês)](https://en.wikipedia.org/wiki/GLPi)
 
-[![]( /site/assets/img/uploads/2020/05/GLPI-banner-Athena-Security.png)]( /site/assets/img/uploads/2020/05/GLPI-banner-Athena-Security.png)
+[![]( ./assets/img/uploads/2020/05/GLPI-banner-Athena-Security.png)]( ./assets/img/uploads/2020/05/GLPI-banner-Athena-Security.png)
 
 Site oficial: <https://glpi-project.org/pt-br/>
 
@@ -387,59 +387,59 @@ Agora que já efetuamos todos os ajustes e configurações necessários, vamos s
 
 Então, pelo endereço IP do seu servidor Linux vamos digitar em nosso navegador o seguinte: http://endereco\_ip/glpi/
 
-![]( /site/assets/img/uploads/2020/05/image.png) 
+![]( ./assets/img/uploads/2020/05/image.png) 
 
 URL de instalação do GLPI via Internet WEB  Selecione o idioma desejado, por aqui será o Português do Brasil:
 
-![]( /site/assets/img/uploads/2020/05/image-1.png) 
+![]( ./assets/img/uploads/2020/05/image-1.png) 
 
 Aceite os termos da licença do software:
 
-![]( /site/assets/img/uploads/2020/05/image-2.png) 
+![]( ./assets/img/uploads/2020/05/image-2.png) 
 
 Agora vamos selecionar a opção **Instalar**:
 
-![]( /site/assets/img/uploads/2020/05/image-3.png) 
+![]( ./assets/img/uploads/2020/05/image-3.png) 
 
 O SETUP inicial do GLPI irá realizar um teste, verificando se todos os pacotes e configurações necessárias estão ok, como já fizemos tudo nos passos anteriores, teremos sucesso em todos os itens, pelo menos na versão 9.4 do glpi.
 
-![]( /site/assets/img/uploads/2020/05/image-4.png) 
+![]( ./assets/img/uploads/2020/05/image-4.png) 
 
 Informando os dados do Banco de Dados, lembrando que fizemos um usuário exclusivo para o GLPI.
 
-![]( /site/assets/img/uploads/2020/05/image-6.png) 
+![]( ./assets/img/uploads/2020/05/image-6.png) 
 
 Agora precisamos selecionar o banco de dados, o que criamos e ajustamos as permissões é o DB glpi:
 
-![]( /site/assets/img/uploads/2020/05/image-7.png) 
+![]( ./assets/img/uploads/2020/05/image-7.png) 
 
 Em seguida, o instalado do GLPI nos retorna com uma mensagem de sucesso na criação do DB:
 
-![]( /site/assets/img/uploads/2020/05/image-8.png) 
+![]( ./assets/img/uploads/2020/05/image-8.png) 
 
 A próxima tela nos pede se desejamos enviar estatísticas de uso da ferramenta, não é obrigatório, no meu caso eu deixei desmarcado está opção:
 
-![]( /site/assets/img/uploads/2020/05/image-9.png) 
+![]( ./assets/img/uploads/2020/05/image-9.png) 
 
 Em seguida será questionado se você deseja doar algum valor a equipe de desenvolvimento do GLPI ou se deseja continuar a instalação é só clicar em Continuar.
 
-![]( /site/assets/img/uploads/2020/05/image-10.png) 
+![]( ./assets/img/uploads/2020/05/image-10.png) 
 
 Mensagem de conclusão de instalação do GLPI, será informando os usuários com senha default para acesso a ferramenta:
 
-![]( /site/assets/img/uploads/2020/05/image-11.png) 
+![]( ./assets/img/uploads/2020/05/image-11.png) 
 
 Tela de Login:
 
-![]( /site/assets/img/uploads/2020/05/image-12.png)   
+![]( ./assets/img/uploads/2020/05/image-12.png)   
 
 Informe o Login “glpi” e senha “glpi” para obter o primeiro acesso a plataforma de chamados, e começar os ajustes conforme sua necessidade.
 
-![]( /site/assets/img/uploads/2020/05/image-13.png)   
+![]( ./assets/img/uploads/2020/05/image-13.png)   
 
 Tela principal pós login:
 
-![]( /site/assets/img/uploads/2020/05/image-14-1024x403.png)   
+![]( ./assets/img/uploads/2020/05/image-14-1024x403.png)   
 
 
 #### Removendo o diretório de instalação do GLPI pós instalação
@@ -467,6 +467,6 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![]( /site/assets/img/uploads/2019/02/foto-redonda.png)   **Johnny Ferreira**  
+![]( ./assets/img/uploads/2019/02/foto-redonda.png)   **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  
 <http://www.tidahora.com.br>

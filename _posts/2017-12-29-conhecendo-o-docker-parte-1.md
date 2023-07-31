@@ -35,7 +35,7 @@ Tudo isso é possível, pois o Docker utiliza como backend o famoso LXC (Linux C
 
 Veja na imagem abaixo como é o funcionamento de um sistema de virtualização e do Docker.
 
-![](/site/assets/img/uploads/2017/12/explicando-conceito-docker-tidahora.png)  
+![](./assets/img/uploads/2017/12/explicando-conceito-docker-tidahora.png)  
 Imagem criada por Johnny Ferreira – Créditos: Johnny Ferreira
 
 Notem que nas maquinas virtuais temos uma camada a mais, que é o sistema operacional das maquinas virtuais, chamados normalmente de Guest OS, sendo instalados no Hypervisor, ocupando memória, processamento, disco e rede. Tudo isso para que possamos instalar nossos servidores web e rodarmos o apache/php com mysql.
@@ -64,7 +64,7 @@ Verificando o kernel no Linux.
 uname -r
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-1.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-1.png)
 
 ### Instalando o Docker
 
@@ -78,7 +78,7 @@ Instalando o Docker, o comando abaixo realiza a instalação do docker no seu am
 curl -sSL https://get.docker.com | sh
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-2.1.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-2.1.png)
 
 Mudando para ‘root’:
 
@@ -86,7 +86,7 @@ Mudando para ‘root’:
 sudo su -
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-2.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-2.png)
 
 Verificando a versão do Docker:
 
@@ -94,7 +94,7 @@ Verificando a versão do Docker:
 docker -v
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-3.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-3.png)
 
 Verifique se após a instalação do Docker o mesmo encontra-se em execução no sistema:
 
@@ -102,7 +102,7 @@ Verifique se após a instalação do Docker o mesmo encontra-se em execução no
 ps -ef |grep docker
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-2.2.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-2.2.png)
 
 ### Comandos básicos no Docker
 
@@ -112,7 +112,7 @@ ps -ef |grep docker
 docker ps
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-3.1.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-3.1.png)
 
 Note que não temos nenhum processo rodando ainda, vamos fazer isso mais pra frente.
 
@@ -122,7 +122,7 @@ Note que não temos nenhum processo rodando ainda, vamos fazer isso mais pra fre
 docker images
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-3.2.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-3.2.png)
 
 #### Criando seu Primeiro Container no Docker
 
@@ -136,7 +136,7 @@ Criando o container com CentOS 6.9
 docker run -it centos:6.9 /bin/bash
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.png)
 
 *Parâmetros:*  
 *-i = interativo*  
@@ -150,7 +150,7 @@ Verifique o ambiente desse container, com o comando abaixo:
 cat /etc/issue
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.1-1.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.1-1.png)
 
 Atualizando o CentOS 6.9
 
@@ -160,13 +160,13 @@ yum -y update && yum clean all
 
 ***Observação:** O **yum clean all** limpa os pacotes baixados no update.*
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.2.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.2.png)
 
 ### Saindo do Container e Voltando ao Host Principal
 
 Para que possamos sair do container sem encerra-lo, precisamos digitar no teclado as seguintes sequência no teclado: *ctrl + p + q*
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-saindo.jpg)  
+![](./assets/img/uploads/2017/12/conhecendo-docker-saindo.jpg)  
 Teclado Apple
 
 No Host principal digite novamente o comando “docker ps”:
@@ -175,7 +175,7 @@ No Host principal digite novamente o comando “docker ps”:
 docker ps
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.5.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.5.png)
 
 Vejam que temos nosso Container rodando CentOS 6.9 que acabamos de subir, bem como as informações de qual comando estamos executando, ou seja, o /bin/bash e quanto tempo estamos com ela rodando.
 
@@ -189,7 +189,7 @@ Vamos utilizar o comando abaixo para voltar ao console do container:
 docker attach 020b238d63e7
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.6.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.6.png)
 
 E na sequência já ganhamos acesso ao console. 🐧
 
@@ -201,7 +201,7 @@ Certo, agora vamos instalar o Apache, PHP e MySQL em nosso container rodando Cen
 yum -y install httpd php mysql-server php-mysql
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.3.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.3.png)
 
 Iniciando os serviços:
 
@@ -216,7 +216,7 @@ Verificando o IP do Container:
 ifconfig
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.4.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.4.png)
 
 Observem que temos um IP diferente da nossa rede local, isso porque o Docker cria um pool de endereço gerenciados pelo próprio docker, ou seja, para podermos acessar nossa aplicação que está rodando ai nesse container, é necessário que na hora da criação do container, passarmos um parâmetro de portas na hora da criação do container.
 
@@ -244,7 +244,7 @@ Verificando se a imagem foi encerrada com sucesso:
 docker ps
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.7.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.7.png)
 
 Notem que o container não se encontra mais rodando em nosso docker.
 
@@ -258,7 +258,7 @@ Porta 88 do Host Principal -&gt; Porta 80 do Container
 docker run -it -p 88:80 centos:6.9 /bin/bash
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.8.png)
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.8.png)
 
 Agora vamos instalar o Apache no novo container.
 
@@ -284,7 +284,7 @@ Verificando os processos rodando no Container.
 ps -ef
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-4.9.png)  
+![](./assets/img/uploads/2017/12/conhecendo-docker-4.9.png)  
 
 Reparem que os processos que estão rodando é apenas do bash e do apache, ou seja, o Docker nos da uma possibilidade de redução muito grande nas performances de servidores.
 
@@ -292,7 +292,7 @@ Agora vamos saindo do Container, sem encerra-lo, (ctrl + p + q) e vamos visualiz
 
 Reparem na marcação abaixo a configuração do parâmetro (-p) que passamos no comando na hora da criação do container, esse parâmetro irá nos permitir acessar o Container através da porta 88 do Host principal.
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-5.png)  
+![](./assets/img/uploads/2017/12/conhecendo-docker-5.png)  
 
 Pegando o IP do Host Principal (Docker)
 
@@ -306,11 +306,11 @@ Você pode filtrar a sua placa de rede, no meu caso minha placa de rede é “en
 ip show addr |grep enp0s3
 ```
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-5.1.png)  
+![](./assets/img/uploads/2017/12/conhecendo-docker-5.1.png)  
 
 Agora vamos acessar esse endereço IP da seguinte forma em nosso browser: http://iphost:88
 
-![](/site/assets/img/uploads/2017/12/conhecendo-docker-5.2.png)  
+![](./assets/img/uploads/2017/12/conhecendo-docker-5.2.png)  
 
 Página Inicial do Apache2 no CentOS 6.9
 
@@ -327,7 +327,7 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![](/site/assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)  
+![](./assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)  
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  

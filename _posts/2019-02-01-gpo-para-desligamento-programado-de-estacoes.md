@@ -23,15 +23,15 @@ Siga os passos abaixo, caso precise criar essa regra em seu controlador de domí
 
 Primeiro passo é abrir o **Gerenciador de Política de Grupo.**
 
-![](/site/assets/img/uploads/2019/02/image.png)  
+![](./assets/img/uploads/2019/02/image.png)  
 
-![](/site/assets/img/uploads/2019/02/image-1.png)  
+![](./assets/img/uploads/2019/02/image-1.png)  
 
 Clique com o botão direito do Mouse na **OU** que deseja criar a GPO, e clique em **Criar um GPO neste domínio e fornecer um link para ele aqui…**
 
 Eu selecionei a “**OU**” de **Computadores** dentro da “**OU**” do meu **domínio**:
 
-![](/site/assets/img/uploads/2019/02/image-3.png)
+![](./assets/img/uploads/2019/02/image-3.png)
 
 Informe o nome desejado para a **GPO**:
 
@@ -43,36 +43,36 @@ Configurações do Computador » Preferências » Configurações do Painel de C
 
 Clique com o botão direito em Tarefa Agendada e selecione a opção Tarefa Agendada (no mínimo Windows 7)
 
-![](/site/assets/img/uploads/2019/02/Screen-Shot-2020-05-03-at-7.50.02-PM-1024x523.png)
+![](./assets/img/uploads/2019/02/Screen-Shot-2020-05-03-at-7.50.02-PM-1024x523.png)
 
 Preencha os campos conforme as imagens abaixo:  
 Aba **Geral**:
 
-![](/site/assets/img/uploads/2019/02/Screen-Shot-2019-02-01-at-14.02.43.png)
+![](./assets/img/uploads/2019/02/Screen-Shot-2019-02-01-at-14.02.43.png)
 
 Aba **Disparadores**, clique em Nova… e faça o cadastro das informações abaixo:
 
-![](/site/assets/img/uploads/2020/05/disparadores.png)
+![](./assets/img/uploads/2020/05/disparadores.png)
 
 Aba **Ações**:
 
-![](/site/assets/img/uploads/2020/05/acoes.png)
+![](./assets/img/uploads/2020/05/acoes.png)
 
 Aba **Condições**:
 
-![](/site/assets/img/uploads/2020/05/condicoes.png)
+![](./assets/img/uploads/2020/05/condicoes.png)
 
 Aba **Configurações**:
 
-![](/site/assets/img/uploads/2020/05/configuracoes.png)
+![](./assets/img/uploads/2020/05/configuracoes.png)
 
 Aba **Comum**:
 
-![](/site/assets/img/uploads/2020/05/comum.png)
+![](./assets/img/uploads/2020/05/comum.png)
 
 Para aplicar a GPO nos computadores, vincule a GPO criada na **OU** de **Computadores** e nos **setores** correspondentes:
 
-![](/site/assets/img/uploads/2019/02/image-4.png)
+![](./assets/img/uploads/2019/02/image-4.png)
 
 Após isso você pode esperar replicar as GPOs para as estações, ou executar o comando **gpupdate /force** para forçar a atualizar.
 
@@ -81,7 +81,7 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![](/site/assets/img/uploads/2019/02/foto-redonda.png)  
+![](./assets/img/uploads/2019/02/foto-redonda.png)  
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  

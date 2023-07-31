@@ -31,25 +31,25 @@ Pensei em formatar e reinstalar o OS X, mas ai fui olhar as configurações de s
 
 Clique em **Preferências do Sistema:**
 
-![](/site/assets/img/uploads/2019/09/image.png)
+![](./assets/img/uploads/2019/09/image.png)
 
 Depois clique em **SOM:**
 
-![](/site/assets/img/uploads/2019/09/Screen-Shot-2019-09-20-at-14.13.42.png)
+![](./assets/img/uploads/2019/09/Screen-Shot-2019-09-20-at-14.13.42.png)
 
 Depois clique na aba **Saída (output)**
 
-![](/site/assets/img/uploads/2019/09/Screen-Shot-2019-09-20-at-14.15.02.png)
+![](./assets/img/uploads/2019/09/Screen-Shot-2019-09-20-at-14.15.02.png)
 
 
 Agora que vem a bruxaria desconhecida, kkk.  
 Note que o balanceamento do som, está somente para o lado direito:
 
-![](/site/assets/img/uploads/2019/09/Screen-Shot-2019-09-20-at-14.16.22.png)
+![](./assets/img/uploads/2019/09/Screen-Shot-2019-09-20-at-14.16.22.png)
 
 Para resolver é simples, basta deixar centralizado.
 
-![](/site/assets/img/uploads/2019/09/Screen-Shot-2019-09-20-at-14.17.11.png)
+![](./assets/img/uploads/2019/09/Screen-Shot-2019-09-20-at-14.17.11.png)
 
 Problema resolvido, bem, pelo menos aqui nesse caso que aconteceu comigo, e talvez possa ser o mesmo ocorrido com você também!
 
@@ -60,7 +60,7 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![](/site/assets/img/uploads/2019/02/foto-redonda.png)  
+![](./assets/img/uploads/2019/02/foto-redonda.png)  
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  
 <http://www.tidahora.com.br>  
