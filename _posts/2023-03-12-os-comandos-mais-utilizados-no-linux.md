@@ -2,7 +2,7 @@
 title: 'Os comandos mais utilizados no Linux'
 date: '2023-03-12T16:22:05-03:00'
 type: post
-image: /assets/img/thumb/comandos-mais-usados-linux.jpg
+image:../assets/img/thumb/comandos-mais-usados-linux.jpg
 tag:
     - 'Administração de sistemas'
     - 'Comandos Linux'
@@ -194,7 +194,7 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![](./assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)
+![](../assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  

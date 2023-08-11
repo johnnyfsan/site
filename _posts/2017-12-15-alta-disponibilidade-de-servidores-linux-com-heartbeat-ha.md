@@ -3,7 +3,7 @@ layout: post
 date: '2017-12-15T11:27:47-02:00'
 title: 'Alta Disponibilidade de Servidores Linux com Heartbeat (HA)'
 subtitle:
-image: /assets/img/thumb/alta-disponibilidade-servidores-linux-heartbeat-ha.png
+image:../assets/img/thumb/alta-disponibilidade-servidores-linux-heartbeat-ha.png
 tag:
     - 'alta disponibilidade'
     - 'alta disponibilidade centos'
@@ -160,7 +160,7 @@ Espero ter ajudado de alguma forma.
 
 - - - - - -
 
-![](./assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)
+![](../assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  

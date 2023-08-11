@@ -2,7 +2,7 @@
 title: 'Instalando o BackupPC no Linux Ubuntu 20'
 date: '2021-05-22T12:41:25-03:00'
 type: post
-image: /assets/img/thumb/servidor-de-backup-com-backuppc-no-linux-ubuntu-20.png
+image:../assets/img/thumb/servidor-de-backup-com-backuppc-no-linux-ubuntu-20.png
 tag:
     - 'backuppc linux ubuntu 20'
     - 'como instalar servidor de backup linux'
@@ -23,7 +23,7 @@ O **BackupPC** é uma ferramenta para backup de dados, muito utilizado no ambien
 É uma ferramenta de simples instalação e configuração, sua parte de restaurar os backups também é bem amigável.  
 Para quem procura uma ferramenta de Backup, sem necessidade de pagar uma licença de software, sem a preocupação de que a ferramenta irá funcionar corretamente, e de fácil gerenciamento, o BackupPC pode lhe ajudar e muito.
 
-[![](./assets/img/uploads/2021/05/backup_animation.gif)](./assets/img/uploads/2021/05/backup_animation.gif)
+[![](../assets/img/uploads/2021/05/backup_animation.gif)](../assets/img/uploads/2021/05/backup_animation.gif)
 
 Visitem o site oficial e o site de documentação para maiores informações.
 
@@ -74,19 +74,19 @@ Após confirmarmos a instalação do BackupPC e suas dependências, vamos inicia
 
 Abaixo a primeira tela, referente a configuração do serviço de e-mail do BackupPC, utilizado para alertar os administradores sobre os Jobs de Backups, em nosso tutorial vou selecionar a opção “Apenas local”.
 
-![](./assets/img/uploads/2021/05/1.png)
+![](../assets/img/uploads/2021/05/1.png)
 
 Informe o nome da conta de e-mail a ser utilizado pelo BackupPC:
 
-![](./assets/img/uploads/2021/05/2.png)
+![](../assets/img/uploads/2021/05/2.png)
 
 Vamos selecionar o servidor web Apache2:
 
-![](./assets/img/uploads/2021/05/3.png)
+![](../assets/img/uploads/2021/05/3.png)
 
 Informação sobre o acesso ao serviço do BackupPC, clique em OK:
 
-![](./assets/img/uploads/2021/05/4.png)
+![](../assets/img/uploads/2021/05/4.png)
 
 
 ### 3. Alterando a senha padrão de acesso ao BackupPC
@@ -323,15 +323,15 @@ Abra seu navegador de preferência e digite o endereço abaixo:
 
 <http://endereco-ip-servidor/backuppc>
 
-![](./assets/img/uploads/2021/05/image-1024x203.png)
+![](../assets/img/uploads/2021/05/image-1024x203.png)
 
 Informe o login e a senha que criamos no passo 3.
 
-![](./assets/img/uploads/2021/05/image-1.png)
+![](../assets/img/uploads/2021/05/image-1.png)
 
 Tela principal do BackupPC:
 
-![](./assets/img/uploads/2021/05/image-2-1024x436.png)
+![](../assets/img/uploads/2021/05/image-2-1024x436.png)
 
 Para incluir um cliente no BackupPC é bem simples, basta configura-lo no menu Hosts, caso tenha dúvidas, consulte a documentação oficial do BackupPC.
 

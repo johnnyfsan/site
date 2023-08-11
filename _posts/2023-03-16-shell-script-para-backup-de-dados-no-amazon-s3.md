@@ -2,7 +2,7 @@
 title: 'Shell script para backup de dados no Amazon S3'
 date: '2023-03-16T16:53:03-03:00'
 type: post
-image: /assets/img/thumb/shell-script-backup-amazon-s3.png
+image:../assets/img/thumb/shell-script-backup-amazon-s3.png
 tag:
     - 'Amazon S3'
     - 'backup linux shell script s3 aws'
@@ -76,7 +76,7 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![](../assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)
+![](.../assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  

@@ -2,7 +2,7 @@
 title: 'Conhecendo e Utilizando o GIT'
 date: '2018-04-02T13:59:13-03:00'
 type: post
-image: /assets/img/thumb/conhecendo-e-utilizando-o-git.png
+image:../assets/img/thumb/conhecendo-e-utilizando-o-git.png
 tag:
     - 'aprenda git'
     - 'aprender usar o git'
@@ -263,7 +263,7 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![](./assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)  
+![](../assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)  
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  
