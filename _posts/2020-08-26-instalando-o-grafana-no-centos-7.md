@@ -2,7 +2,7 @@
 title: 'Instalando o Grafana no CentOS 7'
 date: '2020-08-26T14:43:49-03:00'
 type: post
-image: ../assets/img/thumb/grafana-dashboard-e1605992643650.png
+image: ../assets/img/thumb/grafana-dashboard.png
 tag:
     - 'grafana dashboard centos'
     - 'instalando grafana centos'
