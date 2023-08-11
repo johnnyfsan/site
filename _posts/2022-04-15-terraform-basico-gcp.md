@@ -33,7 +33,7 @@ Let’s get started!
 
 Acesse o site oficial do Terraform clicando neste [link](https://www.terraform.io/downloads) para fazer o download da ferramenta. Selecione o seu sistema operacional e faça a instalação do Terraform.
 
-[![](./assets/img/uploads/2022/04/terraform-main-page.png)](./assets/img/uploads/2022/04/terraform-main-page.png)
+[![](../assets/img/uploads/2022/04/terraform-main-page.png)](../assets/img/uploads/2022/04/terraform-main-page.png)
 
 Depois de executar a instalação, bora pro Terminal para verificar se a instalação foi realizada com sucesso, no seu terminal digite:
 
@@ -43,7 +43,7 @@ terraform
 
 O sistema irá nos retornar os sub-comandos/parâmetros do terraform:
 
-[![](./assets/img/uploads/2022/04/terraform-help.png)](./assets/img/uploads/2022/04/terraform-help.png)
+[![](../assets/img/uploads/2022/04/terraform-help.png)](../assets/img/uploads/2022/04/terraform-help.png)
 
 Se recebeu a mensagem conforme imagem acima, está tudo certo.
 
