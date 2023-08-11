@@ -18,13 +18,13 @@ Vamos utilizar o comando *“sed”:*
 
 A sintaxe do comando é a seguinte:
 
-```
+```bash
 sed -i 's,Texto Antigo,Texto Novo,g' arquivo
 ```
 
 Abaixo temos um arquivo de testes chamado “lista-de-sites.txt” o conteúdo do arquivo é o seguinte:
 
-```
+```bash
 root@fsociety [~] # cat lista-de-sites.txt 
 tidahora.com.br
 google.com.br
@@ -37,13 +37,13 @@ facebook.com
 
 Vamos substituir com o comando “sed” o site “tidahora.com.br” para “WWW.TIDAHORA.COM.BR”:
 
-```
+```bash
 sed -i 's,tidahora.com.br,WWW.TIDAHORA.COM.BR,g' lista-de-sites.txt
 ```
 
 Vamos ver o conteúdo do arquivo após alteração:
 
-```
+```bash
 root@fsociety [~] # cat lista-de-sites.txt 
 WWW.TIDAHORA.COM.BR
 google.com.br
@@ -58,7 +58,7 @@ facebook.com
 
 Veja abaixo, abra o arquivo desejado:
 
-```
+```bash
 vim lista-de-sites.txt
 ```
 
@@ -66,11 +66,11 @@ Vamos substituir o texto, *facebook.com* por *INSTAGRAM.COM*
 
 Após abrir o arquivo pressione a tecla *“ESC”* e digite o comando abaixo:
 
-```
+```bash
 :%s/Palavra Antiga/Palavra Nova
 ```
 
-```
+```bash
 :%s/facebook.com/INSTAGRAM.COM
 ```
 
@@ -81,7 +81,7 @@ Em seguida podemos salvar o arquivo e sair do modo edição.
 Para salvar e sair pressione: *“ESC”* + as teclas *:wq* em seguida *“Enter”*.  
 Vamos conferir o conteúdo do arquivo que alteramos com o *“VIM”.*
 
-```
+```bash
 root@fsociety [~] # cat lista-de-sites.txt 
 WWW.TIDAHORA.COM.BR
 google.com.br
