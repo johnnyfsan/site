@@ -4,7 +4,7 @@ title: 'Terraform: O que é e como começar provisionando uma instância Linux n
 subtitle:
 author: 'Johnny Ferreira'
 tags: [terraform, devops, cloud, gcp, aws, amazon web services]
-image: ../assets/img/thumb/terraformgcp.png
+image: ./assets/img/thumb/terraformgcp.png
 comments: true
 ---
 
