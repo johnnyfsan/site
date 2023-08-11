@@ -1,7 +1,7 @@
 ---
 title: 'Comandos úteis no Citrix XenServer'
 date: '2017-11-21T14:39:43-02:00'
-image: ../assets/uploads/2017/11/comandos-citrix-xenserver.png
+image: ../assets/img/uploads/2017/11/comandos-citrix-xenserver.png
 category:
     - 'Citrix XenServer'
     - 'Virtualização'
