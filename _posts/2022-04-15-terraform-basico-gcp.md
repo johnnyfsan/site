@@ -4,9 +4,10 @@ title: 'Terraform: O que é e como começar provisionando uma instância Linux n
 subtitle:
 author: 'Johnny Ferreira'
 tags: [terraform, devops, cloud, gcp, aws, amazon web services]
-image: ./assets/img/thumb/terraformgcp.png
+image: ../assets/img/thumb/terraformgcp.png
 comments: true
 ---
+
 - - - - - -
 
 Se você é um profissional de TI que atua com infraestrutura ou é sysadmin certamente já pensou ou já automatizou muito de suas tarefas operacionais. No passado quando eu era sysadmin já fazia automação das rotinas que administrava em servidores Linux, sempre utilizando Shell Script como meu aliado para execução de determinadas tarefas e rotinas.
@@ -67,7 +68,7 @@ mkdir ˜/terraform
 - **Sub-diretório para arquivos da AWS:** terraform-aws
 - **Sub-diretório para arquivos do GCP:** terraform-gcp
  
-[![](./assets/img/uploads/2022/04/terraform-dir.png)](./assets/img/uploads/2022/04/terraform-dir.png)
+[![](../assets/img/uploads/2022/04/terraform-dir.png)](../assets/img/uploads/2022/04/terraform-dir.png)
 
 - - - - - -
 
@@ -91,61 +92,61 @@ Acesse sua conta no Google Cloud Platform (GCP) através do link abaixo:
 
 Clique em **Criar Novo Projeto**, defina um nome para o projeto e caso tenha alguma organização defina nesta tela.
 
-[![](./assets/img/uploads/2022/04/gcp-home-1.png)](./assets/img/uploads/2022/04/gcp-home-1.png)
+[![](../assets/img/uploads/2022/04/gcp-home-1.png)](../assets/img/uploads/2022/04/gcp-home-1.png)
 
 Após criarmos o projeto, esta é a tela inicial contendo todas as informações e recursos que podemos iniciarmos na Cloud do Google.
 
-[![](./assets/img/uploads/2022/04/gcp-home-2.png)](./assets/img/uploads/2022/04/gcp-home-2.png)
+[![](../assets/img/uploads/2022/04/gcp-home-2.png)](../assets/img/uploads/2022/04/gcp-home-2.png)
 
 Em seguida, vamos gerar nossa chave de acesso para que o Terraform possa acessar os recursos e gerenciar via código.
 
 Selecione o projeto criado e clique no botão **“Acessar as configurações do projeto”**, localizado na tela de informações do Projeto.
 
-[![](./assets/img/uploads/2022/04/gcp-1.png)](./assets/img/uploads/2022/04/gcp-1.png)
+[![](../assets/img/uploads/2022/04/gcp-1.png)](../assets/img/uploads/2022/04/gcp-1.png)
 
 Localize e clique na opção de **“Contas de serviço”**:
 
-[![](./assets/img/uploads/2022/04/gcp-2.png)](./assets/img/uploads/2022/04/gcp-2.png)
+[![](../assets/img/uploads/2022/04/gcp-2.png)](../assets/img/uploads/2022/04/gcp-2.png)
 
 Clique em **“+ Criar conta de Serviço”**
 
-[![](./assets/img/uploads/2022/04/gcp-3.png)](./assets/img/uploads/2022/04/gcp-3.png)
+[![](../assets/img/uploads/2022/04/gcp-3.png)](../assets/img/uploads/2022/04/gcp-3.png)
 
 Na etapa **1 Detalhes da conta de Serviço** preencha os dados do seu projeto, em seguida clique em **“Criar e Continuar”**:
 
 Na etapa 2 vamos Conceder os acessos a conta de serviço, selecione a rule (papel) **“Projeto &gt; Editor”**
 
-[![](./assets/img/uploads/2022/04/gcp-4.png)](./assets/img/uploads/2022/04/gcp-4.png)
+[![](../assets/img/uploads/2022/04/gcp-4.png)](../assets/img/uploads/2022/04/gcp-4.png)
 
 Em seguida clique em **Concluir**, e a chave estará no painel para os próximos passos:
 
-[![](./assets/img/uploads/2022/04/gcp-5.png)](./assets/img/uploads/2022/04/gcp-5.png)
+[![](../assets/img/uploads/2022/04/gcp-5.png)](../assets/img/uploads/2022/04/gcp-5.png)
 
 Em seguida vamos baixar nossa chave para configurar no Terraform 🙂 
 
 Para isso clique na opção de **Ações**, em seguida clique em **Gerenciar chaves** conforme imagem abaixo:
 
-[![](./assets/img/uploads/2022/04/gcp-6.png)](./assets/img/uploads/2022/04/gcp-6.png)Na próxima tela clique em **Adicionar Chave**:
+[![](../assets/img/uploads/2022/04/gcp-6.png)](../assets/img/uploads/2022/04/gcp-6.png)Na próxima tela clique em **Adicionar Chave**:
 
-[![](./assets/img/uploads/2022/04/gcp-key-1.png)](./assets/img/uploads/2022/04/gcp-key-1.png)
+[![](../assets/img/uploads/2022/04/gcp-key-1.png)](../assets/img/uploads/2022/04/gcp-key-1.png)
 
 Selecione a opção do tipo **JSON**:
 
-[![](./assets/img/uploads/2022/04/gcp-key-2.png)](./assets/img/uploads/2022/04/gcp-key-2.png)
+[![](../assets/img/uploads/2022/04/gcp-key-2.png)](../assets/img/uploads/2022/04/gcp-key-2.png)
 
 Ao clicar em **Criar** a chave é gerada e feita o download no computador:
 
-[![](./assets/img/uploads/2022/04/gcp-7.png)](./assets/img/uploads/2022/04/gcp-7.png)
+[![](../assets/img/uploads/2022/04/gcp-7.png)](../assets/img/uploads/2022/04/gcp-7.png)
 
 Agora que já temos nossa conta de serviço configurada e a chave para acesso, precisamos ativar a API antes de irmos para a escrita do código no Terraform.
 
 Na barra de **Pesquisa** do GCP, digite **Compute Engine** e clique na opção **Compute Engine**.
 
-[![](./assets/img/uploads/2022/04/gcp-api-1.png)](./assets/img/uploads/2022/04/gcp-api-1.png)
+[![](../assets/img/uploads/2022/04/gcp-api-1.png)](../assets/img/uploads/2022/04/gcp-api-1.png)
 
 Na tela inicial clique em **Ativar:**
 
-[![](./assets/img/uploads/2022/04/gcp-api-2.png)](./assets/img/uploads/2022/04/gcp-api-2.png)
+[![](../assets/img/uploads/2022/04/gcp-api-2.png)](../assets/img/uploads/2022/04/gcp-api-2.png)
 
 **Obs.:** Esse processo pode levar alguns segundos até ficar pronto.
 
@@ -188,11 +189,11 @@ Lembre-se de mudar a linha onde contém credentials com a localização da sua c
 
 Salve o arquivo acima com o nome de “main.tf” na estrutura de diretório que criamos anteriormente:
 
-[![](./assets/img/uploads/2022/04/files-terraform-1.png)](./assets/img/uploads/2022/04/files-terraform-1.png)
+[![](../assets/img/uploads/2022/04/files-terraform-1.png)](../assets/img/uploads/2022/04/files-terraform-1.png)
 
 Seu arquivo deve ficar assim:
 
-[![](./assets/img/uploads/2022/04/sublime-1.png)](./assets/img/uploads/2022/04/sublime-1.png)
+[![](../assets/img/uploads/2022/04/sublime-1.png)](../assets/img/uploads/2022/04/sublime-1.png)
 
 Em seguida salve o arquivo e no Terminal vamos digitar o comando para inicializar o diretório de configurações:
 
@@ -204,13 +205,13 @@ terraform init
 
 Se tudo estiver certo, você irá receber a seguinte mensagem:
 
-[![](./assets/img/uploads/2022/04/terraform-init.png)](./assets/img/uploads/2022/04/terraform-init.png)
+[![](../assets/img/uploads/2022/04/terraform-init.png)](../assets/img/uploads/2022/04/terraform-init.png)
 
 O passo seguinte é verificar a consistência do arquivo gerado, onde utilizamos o comando terraform fmt para analisar a formatação e sintaxe do nosso diretório/arquivo, com isso é possível reduzir erros operacionais no ambiente.
 
 No terminal digite: **terraform fmt** em seguida digite **terraform validate**
 
-[![](./assets/img/uploads/2022/04/terraform-fmt-validate.png)](./assets/img/uploads/2022/04/terraform-fmt-validate.png)
+[![](../assets/img/uploads/2022/04/terraform-fmt-validate.png)](../assets/img/uploads/2022/04/terraform-fmt-validate.png)
 
 Se o resultado for positivo estamos no caminho certo.
 
@@ -239,11 +240,11 @@ resource "google_compute_instance" "vm_instance" {
 
 Seu arquivo irá ficar assim:
 
-[![](./assets/img/uploads/2022/04/terraform-main-tf.png)](./assets/img/uploads/2022/04/terraform-main-tf.png)
+[![](../assets/img/uploads/2022/04/terraform-main-tf.png)](../assets/img/uploads/2022/04/terraform-main-tf.png)
 
 Volte ao terminal e execute os passos de validação novamente:
 
-[![](./assets/img/uploads/2022/04/terraform-fmt-validate.png)](./assets/img/uploads/2022/04/terraform-fmt-validate.png)
+[![](../assets/img/uploads/2022/04/terraform-fmt-validate.png)](../assets/img/uploads/2022/04/terraform-fmt-validate.png)
 
 O próximo passo é: Aplicar as configurações para o Terraform replicar o provisionamento no GCP!
 
@@ -255,19 +256,19 @@ terraform apply
 
 O Terraform irá listar todas as configurações a serem realizadas no provedor, e irá solicitar uma confirmação que precisa ser digitada na tela:
 
-[![](./assets/img/uploads/2022/04/terraform-apply-1.png)](./assets/img/uploads/2022/04/terraform-apply-1.png)
+[![](../assets/img/uploads/2022/04/terraform-apply-1.png)](../assets/img/uploads/2022/04/terraform-apply-1.png)
 
 Após verificar a solicitação, digite **yes** e clique enter.
 
-[![](./assets/img/uploads/2022/04/terraform-apply-2.png)](./assets/img/uploads/2022/04/terraform-apply-2.png)
+[![](../assets/img/uploads/2022/04/terraform-apply-2.png)](../assets/img/uploads/2022/04/terraform-apply-2.png)
 
 Após confirmarmos a criação dos recursos, o Terraform irá apresentar a evolução do provisionamento do ambiente.
 
-[![](./assets/img/uploads/2022/04/terraform-apply-3.png)](./assets/img/uploads/2022/04/terraform-apply-3.png)
+[![](../assets/img/uploads/2022/04/terraform-apply-3.png)](../assets/img/uploads/2022/04/terraform-apply-3.png)
 
 Acesse o console do GCP e verifique se sua instância está sendo provisionada.
 
-[![](./assets/img/uploads/2022/04/gcp-on-1.png)](./assets/img/uploads/2022/04/gcp-on-1.png)
+[![](../assets/img/uploads/2022/04/gcp-on-1.png)](../assets/img/uploads/2022/04/gcp-on-1.png)
 
 Instância lançada com sucesso!
 
@@ -289,15 +290,15 @@ Todo o provisionamento e mudanças feitas foram desfeitas pelo Terraform.
 
 Será apresentado a você as informações que serão excluídas do provedor, basta digitar **yes** para confirmar sua solicitação.
 
-[![](./assets/img/uploads/2022/04/terraform-destroy.png)](./assets/img/uploads/2022/04/terraform-destroy.png)
+[![](../assets/img/uploads/2022/04/terraform-destroy.png)](../assets/img/uploads/2022/04/terraform-destroy.png)
 
 Saída do comando acima:
 
-[![](./assets/img/uploads/2022/04/terraform-destroy-2.png)](./assets/img/uploads/2022/04/terraform-destroy-2.png)
+[![](../assets/img/uploads/2022/04/terraform-destroy-2.png)](../assets/img/uploads/2022/04/terraform-destroy-2.png)
 
 Verifique no Google Cloud Platform se a instância Linux que provisionamos com o Terraform foi destruída com sucesso.
 
-[![](./assets/img/uploads/2022/04/gcp-on-2.png)](./assets/img/uploads/2022/04/gcp-on-2.png)
+[![](../assets/img/uploads/2022/04/gcp-on-2.png)](../assets/img/uploads/2022/04/gcp-on-2.png)
 
 Nenhuma instância presente no GCP. **=)**
 
