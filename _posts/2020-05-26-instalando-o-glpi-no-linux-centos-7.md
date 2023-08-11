@@ -3,7 +3,7 @@ layout: post
 date: '2020-05-26T16:58:51-03:00'
 title: Instalando o GLPI no Linux CentOS 7
 subtitle:
-image: assets/img/thumb/beneficios-GLPI.png
+image:  assets/img/thumb/beneficios-GLPI.png
 tags: [como instalar glpi, instalar glpi no centos, instalar glpi no centos 7, instalar glpi no linux, ]
 comments: true
 ---

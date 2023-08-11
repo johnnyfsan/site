@@ -2,7 +2,7 @@
 title: 'Autenticando Linux CentOS em Domínio AD Active Directory'
 date: '2018-10-10T18:13:45-03:00'
 type: post
-image:../assets/img/thumb/autenticando-linux-centos-em-dominio-ad-active-directory.png
+image: ../assets/img/thumb/autenticando-linux-centos-em-dominio-ad-active-directory.png
 tag:
     - 'autenticando linux active directoy'
     - 'autenticando linux ad'

@@ -2,7 +2,7 @@
 title: 'Conhecendo o Docker – Parte #2'
 date: '2018-01-26T10:51:56-02:00'
 type: post
-image:../assets/img/thumb/conhecendo-docker-parte-2.png
+image: ../assets/img/thumb/conhecendo-docker-parte-2.png
 tag:
     - 'comandos docker'
     - 'começando com docker'

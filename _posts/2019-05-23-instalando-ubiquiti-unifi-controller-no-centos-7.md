@@ -2,7 +2,7 @@
 title: 'Instalando Ubiquiti Unifi Controller no CentOS 7'
 date: '2019-05-23T22:16:38-03:00'
 type: post
-image:../assets/img/thumb/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7.png
+image: ../assets/img/thumb/Instalando-Ubiquiti-Unifi-Controller-no-CentOS-7.png
 tag:
     - 'controlador ubiquiti centos'
     - 'controlador ubiquiti linux'

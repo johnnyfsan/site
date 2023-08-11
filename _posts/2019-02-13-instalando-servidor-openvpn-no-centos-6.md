@@ -2,7 +2,7 @@
 title: 'Instalando Servidor OpenVPN no CentOS 6'
 date: '2019-02-13T13:57:56-02:00'
 type: post
-image:../assets/img/thumb/Instalando-Servidor-OpenVPN-no-CentOS-6-250x250.png
+image: ../assets/img/thumb/Instalando-Servidor-OpenVPN-no-CentOS-6-250x250.png
 tag:
     - 'configurar openvpn centos'
     - 'instalar openvpn linux'

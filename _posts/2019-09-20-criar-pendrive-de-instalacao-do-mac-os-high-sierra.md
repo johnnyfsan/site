@@ -2,7 +2,7 @@
 title: 'Criar Pendrive de Instalação do Mac OS High Sierra'
 date: '2018-02-15T15:09:01-02:00'
 type: post
-image:../assets/img/thumb/formatar-pendrive-mac-os-x-fat32.jpg
+image:  ../assets/img/thumb/formatar-pendrive-mac-os-x-fat32.jpg
 tag:
     - 'como criar pendrive mac high sierra'
     - 'como formatar um imac'
