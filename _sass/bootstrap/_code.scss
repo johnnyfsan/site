@@ -4,7 +4,14 @@ kbd,
 pre,
 samp {
   font-family: $font-family-monospace;
+  background: #000;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
 }
+
+
 
 // Inline code
 code {
@@ -44,7 +51,7 @@ pre {
   // Account for some code outputs that place code tags in pre tags
   code {
     font-size: inherit;
-    color: inherit;
+    color: #fff;
     word-break: normal;
   }
 }
