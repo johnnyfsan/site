@@ -38,12 +38,12 @@ Ou caso você possua um servidor de e-mail na sua rede corporativa, e deseja res
 Principais opções usadas:
 -------------------------
 
--–timestart: Utilizamos essa opção para determinar qual horário a regra será validada.
--–timestop: Utilizamos para determinar o horário em que a regra deverá parar de responder.
--–weekdays: Opção especifica para determinar quais dias da semana desejamos que a regra funcione, os dias utilizados são: Mon, Tue, Wed, Thu, Fri, Sat e Sun.
--–monthdays: Opção utilizada para determinar em qual dia do mês a regra é validada, valores utilizados é 1 ao 31.
--–datestart: Opção utilizada para determinar a data que a regra será validada, utilizamos os parâmetros no formato YYYY-MM-DDThh:mm:ss, sendo YYYY o ano, MM, o mês, DD o dia, hh a hora, mm os minutos e ss os segundos.
--–datestop: Opção utilizada para determinar a data que a regra será validada a parar a comunicação, utilizamos os parâmetros no formato YYYY-MM-DDThh:mm:ss, sendo YYYY o ano, MM, o mês, DD o dia, hh a hora, mm os minutos e ss os segundos.
+-–timestart: Utilizamos essa opção para determinar qual horário a regra será validada.  
+-–timestop: Utilizamos para determinar o horário em que a regra deverá parar de responder.  
+-–weekdays: Opção especifica para determinar quais dias da semana desejamos que a regra funcione, os dias utilizados são: Mon, Tue, Wed, Thu, Fri, Sat e Sun.  
+-–monthdays: Opção utilizada para determinar em qual dia do mês a regra é validada, valores utilizados é 1 ao 31.    
+-–datestart: Opção utilizada para determinar a data que a regra será validada, utilizamos os parâmetros no formato YYYY-MM-DDThh:mm:ss, sendo YYYY o ano, MM, o mês, DD o dia, hh a hora, mm os minutos e ss os segundos.  
+-–datestop: Opção utilizada para determinar a data que a regra será validada a parar a comunicação, utilizamos os parâmetros no formato YYYY-MM-DDThh:mm:ss, sendo YYYY o ano, MM, o mês, DD o dia, hh a hora, mm os minutos e ss os segundos.  
 
 Exemplo de uso:
 ---------------
