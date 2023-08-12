@@ -2,7 +2,7 @@
 title: 'Restrição de Horário em Regras do IPTables Firewall'
 date: '2018-03-19T14:10:46-03:00'
 type: post
-image: ../assets/img/uploads/2018/03/restricao-de-horario-iptables-150x150.png
+image: ../assets/img/uploads/2018/03/restricao-de-horario-iptables-1280x720.png
 category:
     - 'Firewall IPtables'
     - 'Linux'

@@ -2,7 +2,7 @@
 title: 'Servidor Proxy Squid no Linux CentOS 7 com Autenticação Local'
 date: '2018-02-08T16:46:26-02:00'
 type: post
-image: ../assets/img/uploads/2018/02/servidor-proxy-squid-no-centos-7-150x150.png
+image: ../assets/img/uploads/2018/02/servidor-proxy-squid-no-centos-7-1280x720.png
 category:
     - 'CentOS'
     - 'Dicas de Linux'
