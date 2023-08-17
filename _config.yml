@@ -17,11 +17,18 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    disable: false
+    disable: true
 sass:
   sass_dir: _sass
   style: :compressed
 ganalytics: G-Q7Z612VPL5
+
+# Google Ads
+adsense:
+  client_id: 'ca-pub-2699677056146060' # Google Adsense client ID
+  ad_slot:
+#    before_content: xxxxxxxxxx # Ad Slot that places before content
+    sidebar: 100% # Ad Slot that places to sidebar
 
 # The keywords to associate with your website, for SEO purposes
 keywords: "linux, devops, cloud, tecnologia, infraestrutura, docker, aws, amazon web services, terraform, gcp, google cloud platform"
