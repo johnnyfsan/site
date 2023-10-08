@@ -2,7 +2,7 @@
 title: 'Instalando o NxFilter no CentOS 7'
 date: '2018-06-01'
 type: post
-image: ../assets/img/uploads/2018/06/instalando-o-nxfilter-no-centos-7-150x150.png
+image: ../assets/img/uploads/2018/06/instalando-o-nxfilter-no-centos-7.png
 tag:
     - 'bloquear acessos internet pelo linux'
     - 'bloquear sites'
