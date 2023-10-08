@@ -26,7 +26,7 @@ comments: true
 Opa, tudo bem? 😎 Hoje vamos ver como estar Instalando o NxFilter no Linux CentOS 7, uma solução de filtro de conteúdo que compete diretamente com o serviço de Proxy Squid.  
 O NxFilter realiza o controle e o filtro de acessos a internet baseado no serviço de DNS, possui uma interface web bem amigável e simples de gerenciar. Além de possuir um portal de documentação bem completo.
 
-**Documentação do NxFilter:** [http://docs.nxfilter.net.br/pt\_BR/latest/index.html](http://docs.nxfilter.net.br/pt_BR/latest/index.html)
+**Documentação do NxFilter:** [https://tutorial.nxfilter.org/](https://tutorial.nxfilter.org/)
 
 Além de possuir ótima integração com serviço de Ldap e Active Directory, o NxFilter é uma aplicação leve e que pode ser uma ótima alternativa para empresas que desejam melhorar a segurança interna, aplicando um controle e filtro de conteúdo nos computadores da rede local.
 
