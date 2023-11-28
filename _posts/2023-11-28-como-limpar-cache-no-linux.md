@@ -1,12 +1,13 @@
 ---
 title: 'Como limpar cache no Linux'
 date: '2023-11-28T14:39:43-03:00'
-image: ../assets/img/thumb/swap-linux.jpeg
+image: ../assets/img/thumb/swap-linux.png
     - 'limpar cache linux'
     - 'limpar cache ram linux'
     - 'limpar cache buffer linux'
     - 'limpar cache swap linux'
 ---
+
 - - - - - -
 
 Olá, 🖖🏼
