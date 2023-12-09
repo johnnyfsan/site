@@ -61,6 +61,6 @@ gems:
 
  defaults:
  - scope:
-    path: '_post/'
+    path: '_posts/'
   values:
     sitemap: true  
