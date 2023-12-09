@@ -63,4 +63,4 @@ gems:
  - scope:
     path: '_posts/'
   values:
-    sitemap: true  
+    sitemap: false  
