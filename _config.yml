@@ -58,3 +58,9 @@ plugins:
 
 gems:
     - jekyll-sitemap
+
+ defaults:
+ - scope:
+    path: '_post/'
+  values:
+    sitemap: true  
