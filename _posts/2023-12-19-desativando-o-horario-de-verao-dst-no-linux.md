@@ -27,11 +27,9 @@ Para desativar o horário de verão em servidores ou hosts Linux é muito simple
 
 Antes verifique suas configurações de data e hora com o comando "timedatectl":
 
-
 ```
 timedatectl
 ```
-
 
 ![](../assets/img/uploads/2020/12/image.png)
 
@@ -41,20 +39,16 @@ Para desativar, iremos recriar o arquivo com as configurações que precisamos t
 
 Remova o arquivo abaixo:
 
-
 ```
 rm -rf /etc/localtime
 ```
 
 Após remover o arquivo responsável pelo armazenamento de ajustes de data e hora no sistema linux, precisamos criar um link simbólico para o diretório que contém o fuso horário sem o horário de verão ativo.
 
-
 ```
 ln -s /usr/share/zoneinfo/Etc/GMT+3 /etc/localtime
 ```
-
 Após isso basta executar o comando "date" para verificar se o horário foi alterado para a hora correta.
-
 
 ```
 date
@@ -67,8 +61,8 @@ Execute novamente o comando "timedatectl" para checar se a opção de DST foi de
 timedatectl
 ```
 
-
 ![](../assets/img/uploads/2020/12/image-1.png)
+
 
 Feito isso seu sistema não será mais atualizado para horário de verão sem que você o ajuste para isso.
 

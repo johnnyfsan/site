@@ -81,7 +81,7 @@ Digite o comando abaixo para listarmos o container com nome de “dockerfile”,
 docker ps -a |grep dockerfile
 ```
 
-[![](../assets/img/uploads/2022/05/docker-ps-a-container-id.png)]
+![](../assets/img/uploads/2022/05/docker-ps-a-container-id.png)
 
 - - - - - -
 
@@ -89,7 +89,7 @@ docker ps -a |grep dockerfile
 
 Agora é só acessar o endereço localhost:8081 para visualizar a página inicial do Apache no Ubuntu.
 
-[![](../assets/img/uploads/2022/05/webserver-dockerfile-ubuntu.png)]
+![](../assets/img/uploads/2022/05/webserver-dockerfile-ubuntu.png)
 
 Agora é só usar sua imaginação para hospedar suas aplicações ou alterar o conteúdo do Docker File e assim estruturar melhor seu webserver.
 

@@ -33,7 +33,7 @@ Não existe uma formula mágica ou receita certa para este tipo de departamento,
 
 O ponto principal de um departamento de atendimento, independente do segmento que seja, são as pessoas, contratar as pessoas certas fará com que o seu departamento de Service Desk seja diferente de outros, que tenha mais qualidade, empatia e pró-atividade.
 
-[![](../assets/img/uploads/2020/12/it_specialist_searching_info_about_salary_cover.png)]
+![](../assets/img/uploads/2020/12/it_specialist_searching_info_about_salary_cover.png)
 
 **Abaixo listo algumas características essenciais que o profissional de Service Desk deve ter, fique atendo no processo seletivo aos itens abaixo:**
 
@@ -68,7 +68,7 @@ A resposta deve ser: **"ipconfig ou ipconfig /all"**, com este tipo de pergunta 
 
 Um bom departamento de Service Desk precisa ter um sistema de chamados, hoje em dia existem uma variedades de ferramentas para esta finalidade, estarei mostrando aqui duas ferramentas que podem auxiliar o seu departamento de Service Desk a ser mais pró-ativo, organizado e facilitar sua vida na hora de gerar relatórios sobre o departamento para apresentar a sua diretória por exemplo.
 
-[![](../assets/img/uploads/2020/05/beneficios-GLPI.png)]
+![](../assets/img/uploads/2020/05/beneficios-GLPI.png)
 
 O **GLPI** é uma ferramenta de Service Desk que está sob a licença Open Source, ou seja, não possui nenhum custo com licenciamento de software para sua implementação.  
 O **GLPI** é uma ferramenta completa para gerenciar os seguintes itens:
@@ -91,7 +91,7 @@ Outro software semelhante ao **GLPI** é o **OTRS**, confira mais sobre ele em <
 
 Para que o atendimento seja feito com agilidade é necessário algumas ferramentas para tornar o trabalho dos analistas de service desk mais fácil, as ferramentas de acesso remoto podem auxiliar não somente o departamento de TI mas a empresa como um todo, tornando os processos de atendimento mais agéis, minimizando o tempo de um colaborador de outro departamento com problemas no computador por exemplo, reduzindo o tempo de baixa produtividade por uma falha operacional de TI.
 
-[![](../assets/img/2020/12/suporte-remoto.jpg)]
+![](../assets/img/2020/12/suporte-remoto.jpg)
 
 Abaixo listo algumas ferramentas que podem ser muito útil no dia a dia de um setor de Service Desk:
 
