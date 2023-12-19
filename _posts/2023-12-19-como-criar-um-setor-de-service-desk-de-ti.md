@@ -1,7 +1,6 @@
 ---
 title: 'Como criar um setor de Service Desk de TI'
 date: '2023-12-19'
-author: 'Johnny Ferreira'
 image: ../assets/img/uploads/2020/12/remote-setup-banner.png
 category:
     - 'Gestão de TI'
