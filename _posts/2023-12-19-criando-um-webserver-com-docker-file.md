@@ -1,7 +1,7 @@
 ---
 title: 'Criando um Webserver com Docker File'
-date: '2023-12-19T17:32:29-03:00'
-image: ../uploads/2022/05/15-docker.webp
+date: '2023-12-19'
+image: ../assets/img/uploads/2022/05/15-docker.webp
 category:
     - 'DevOps'
     - 'Docker'
