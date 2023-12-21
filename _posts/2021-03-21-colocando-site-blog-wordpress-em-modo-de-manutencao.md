@@ -1,7 +1,7 @@
 ---
 title: 'Colocando Site/Blog WordPress em modo de Manutenção'
 date: '2021-03-21'
-image: ../assets/img/uploads/2021/03/como-colocar-wordpress-manutenção.jpg
+image: ../assets/img/uploads/2021/03/como-colocar-wordpress-manutencao.jpg
 category:
     - 'Dicas para Web'
 tag:
