@@ -1,7 +1,7 @@
 ---
 title: 'Servidor Proxy Squid no Linux Ubuntu'
 date: '2017-12-21'
-image: ../assets/img/uploads/2017/12/servidor-proxy-squid-no-linux-ubuntu-150x150.png
+image: ../assets/img/uploads/2017/12/servidor-proxy-squid-no-linux-ubuntu.png
 category:
     - 'Linux'
     - 'Proxy Squid'
