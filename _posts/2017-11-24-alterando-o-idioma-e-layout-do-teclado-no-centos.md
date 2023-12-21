@@ -1,7 +1,7 @@
 ---
 title: 'Alterando o Idioma e Layout do Teclado no CentOS'
 date: '2017-11-24'
-thumbnail: ../assets/img/uploads/2017/11/dicas-de-linux.jpg
+image: ../assets/img/uploads/2017/11/dicas-de-linux.jpg
 category:
     - 'Dicas de Linux'
     - 'Linux'
