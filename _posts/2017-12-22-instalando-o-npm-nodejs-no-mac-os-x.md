@@ -1,7 +1,7 @@
 ---
 title: 'Instalando o NPM Node.js no Mac OS X'
 date: '2017-12-22'
-image: ../assets/img/uploads/2017/12/instalando-npm-nodejs-no-mac-osx-2-150x150.png
+image: ../assets/img/uploads/2017/12/instalando-npm-nodejs-no-mac-osx-2.png
 category:
     - 'Mac OS'
     - 'Mac OS High Sierra'
