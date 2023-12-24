@@ -1,7 +1,7 @@
 ---
 title: 'Comando IFCONFIG no CentOS 7'
 date: '2018-04-02'
-image: ../assets/img/uploads/2018/04/comando-ifconfig-centos7-150x150.png
+image: ../assets/img/uploads/2018/04/comando-ifconfig-centos7.png
 category:
     - 'CentOS'
     - 'Dicas de Linux'
