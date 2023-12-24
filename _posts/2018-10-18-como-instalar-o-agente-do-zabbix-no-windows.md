@@ -1,7 +1,7 @@
 ---
 title: 'Como instalar o agente do Zabbix no Windows'
 date: '2018-10-18'
-image: ../assets/img/uploads/2018/10/como-instalar-o-agente-do-zabbix-no-windows-2-150x150.png
+image: ../assets/img/uploads/2018/10/como-instalar-o-agente-do-zabbix-no-windows-2.png
 category:
     - 'Linux'
     - 'Zabbix'
