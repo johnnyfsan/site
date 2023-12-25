@@ -146,13 +146,13 @@ mysql -u root -p
 Criando a base de dados:
 
 ```
-<pre class="lang:mysql decode:true ">CREATE DATABASE zabbix;
+CREATE DATABASE zabbix;
 ```
 
 Criando o Usuário que iremos ajustar na plataforma do Zabbix depois:
 
 ```
-<pre class="lang:mysql decode:true ">CREATE USER 'zabbix'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'zabbix'@'localhost' IDENTIFIED BY 'password';
 ```
 
 Ajustando a permissão do usuário “zabbix” para o banco de dados “zabbix:
